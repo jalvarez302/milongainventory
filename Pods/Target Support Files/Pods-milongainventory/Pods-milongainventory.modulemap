@@ -1,0 +1,6 @@
+framework module Pods_milongainventory {
+  umbrella header "Pods-milongainventory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247EC7A924B68CC500BCC39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7A824B68CC500BCC39A /* AppDelegate.swift */; };
+		247EC7AB24B68CC500BCC39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */; };
+		247EC7AD24B68CC500BCC39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7AC24B68CC500BCC39A /* ViewController.swift */; };
+		247EC7B024B68CC500BCC39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7AE24B68CC500BCC39A /* Main.storyboard */; };
+		247EC7B224B68CC800BCC39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7B124B68CC800BCC39A /* Assets.xcassets */; };
+		247EC7B524B68CC800BCC39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7B324B68CC800BCC39A /* LaunchScreen.storyboard */; };
+		247EC7C024B68CC800BCC39A /* milongainventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7BF24B68CC800BCC39A /* milongainventoryTests.swift */; };
+		247EC7CB24B68CC800BCC39A /* milongainventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7CA24B68CC800BCC39A /* milongainventoryUITests.swift */; };
+		247EC7D924B68D0500BCC39A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */; };
+		3980331A7A7A118F3BA2F520 /* Pods_milongainventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */; };
+		87BED565E44FA8CF36D6388B /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */; };
+		CE55BA72278D442E6BBA43C0 /* Pods_milongainventoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247EC7BC24B68CC800BCC39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247EC79D24B68CC400BCC39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247EC7A424B68CC500BCC39A;
+			remoteInfo = milongainventory;
+		};
+		247EC7C724B68CC800BCC39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247EC79D24B68CC400BCC39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247EC7A424B68CC500BCC39A;
+			remoteInfo = milongainventory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.debug.xcconfig"; sourceTree = "<group>"; };
+		247EC7A524B68CC500BCC39A /* milongainventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = milongainventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247EC7A824B68CC500BCC39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		247EC7AC24B68CC500BCC39A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247EC7AF24B68CC500BCC39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247EC7B124B68CC800BCC39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247EC7B424B68CC800BCC39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247EC7B624B68CC800BCC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247EC7BB24B68CC800BCC39A /* milongainventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milongainventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247EC7BF24B68CC800BCC39A /* milongainventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milongainventoryTests.swift; sourceTree = "<group>"; };
+		247EC7C124B68CC800BCC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247EC7C624B68CC800BCC39A /* milongainventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milongainventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		247EC7CA24B68CC800BCC39A /* milongainventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milongainventoryUITests.swift; sourceTree = "<group>"; };
+		247EC7CC24B68CC800BCC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory_milongainventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.release.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.release.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.release.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.release.xcconfig"; sourceTree = "<group>"; };
+		D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247EC7A224B68CC500BCC39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3980331A7A7A118F3BA2F520 /* Pods_milongainventory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7B824B68CC800BCC39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE55BA72278D442E6BBA43C0 /* Pods_milongainventoryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7C324B68CC800BCC39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BED565E44FA8CF36D6388B /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247EC79C24B68CC400BCC39A = {
+			isa = PBXGroup;
+			children = (
+				247EC7A724B68CC500BCC39A /* milongainventory */,
+				247EC7BE24B68CC800BCC39A /* milongainventoryTests */,
+				247EC7C924B68CC800BCC39A /* milongainventoryUITests */,
+				247EC7A624B68CC500BCC39A /* Products */,
+				F5E8AEBC737B93BD224C19B5 /* Pods */,
+				DAA2A16BB4631D7AF1D3084D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		247EC7A624B68CC500BCC39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247EC7A524B68CC500BCC39A /* milongainventory.app */,
+				247EC7BB24B68CC800BCC39A /* milongainventoryTests.xctest */,
+				247EC7C624B68CC800BCC39A /* milongainventoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247EC7A724B68CC500BCC39A /* milongainventory */ = {
+			isa = PBXGroup;
+			children = (
+				247EC7A824B68CC500BCC39A /* AppDelegate.swift */,
+				247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */,
+				247EC7AC24B68CC500BCC39A /* ViewController.swift */,
+				247EC7AE24B68CC500BCC39A /* Main.storyboard */,
+				247EC7B124B68CC800BCC39A /* Assets.xcassets */,
+				247EC7B324B68CC800BCC39A /* LaunchScreen.storyboard */,
+				247EC7B624B68CC800BCC39A /* Info.plist */,
+				247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */,
+			);
+			path = milongainventory;
+			sourceTree = "<group>";
+		};
+		247EC7BE24B68CC800BCC39A /* milongainventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				247EC7BF24B68CC800BCC39A /* milongainventoryTests.swift */,
+				247EC7C124B68CC800BCC39A /* Info.plist */,
+			);
+			path = milongainventoryTests;
+			sourceTree = "<group>";
+		};
+		247EC7C924B68CC800BCC39A /* milongainventoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				247EC7CA24B68CC800BCC39A /* milongainventoryUITests.swift */,
+				247EC7CC24B68CC800BCC39A /* Info.plist */,
+			);
+			path = milongainventoryUITests;
+			sourceTree = "<group>";
+		};
+		DAA2A16BB4631D7AF1D3084D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */,
+				96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */,
+				D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E8AEBC737B93BD224C19B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */,
+				BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */,
+				E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */,
+				AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */,
+				A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */,
+				AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247EC7A424B68CC500BCC39A /* milongainventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247EC7CF24B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventory" */;
+			buildPhases = (
+				FE747302B1CB3AC363F29DFB /* [CP] Check Pods Manifest.lock */,
+				247EC7A124B68CC500BCC39A /* Sources */,
+				247EC7A224B68CC500BCC39A /* Frameworks */,
+				247EC7A324B68CC500BCC39A /* Resources */,
+				11A88EBDCAE6E9B56A5DA225 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = milongainventory;
+			productName = milongainventory;
+			productReference = 247EC7A524B68CC500BCC39A /* milongainventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		247EC7BA24B68CC800BCC39A /* milongainventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247EC7D224B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryTests" */;
+			buildPhases = (
+				93325B56DE84E53198F88D11 /* [CP] Check Pods Manifest.lock */,
+				247EC7B724B68CC800BCC39A /* Sources */,
+				247EC7B824B68CC800BCC39A /* Frameworks */,
+				247EC7B924B68CC800BCC39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247EC7BD24B68CC800BCC39A /* PBXTargetDependency */,
+			);
+			name = milongainventoryTests;
+			productName = milongainventoryTests;
+			productReference = 247EC7BB24B68CC800BCC39A /* milongainventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		247EC7C524B68CC800BCC39A /* milongainventoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247EC7D524B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryUITests" */;
+			buildPhases = (
+				1C3FA7A769A2B35926B27BD6 /* [CP] Check Pods Manifest.lock */,
+				247EC7C224B68CC800BCC39A /* Sources */,
+				247EC7C324B68CC800BCC39A /* Frameworks */,
+				247EC7C424B68CC800BCC39A /* Resources */,
+				158BDE121DF39365E8BA7A4D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247EC7C824B68CC800BCC39A /* PBXTargetDependency */,
+			);
+			name = milongainventoryUITests;
+			productName = milongainventoryUITests;
+			productReference = 247EC7C624B68CC800BCC39A /* milongainventoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247EC79D24B68CC400BCC39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = josealvarezavina;
+				TargetAttributes = {
+					247EC7A424B68CC500BCC39A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					247EC7BA24B68CC800BCC39A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 247EC7A424B68CC500BCC39A;
+					};
+					247EC7C524B68CC800BCC39A = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 247EC7A424B68CC500BCC39A;
+					};
+				};
+			};
+			buildConfigurationList = 247EC7A024B68CC400BCC39A /* Build configuration list for PBXProject "milongainventory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247EC79C24B68CC400BCC39A;
+			productRefGroup = 247EC7A624B68CC500BCC39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247EC7A424B68CC500BCC39A /* milongainventory */,
+				247EC7BA24B68CC800BCC39A /* milongainventoryTests */,
+				247EC7C524B68CC800BCC39A /* milongainventoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247EC7A324B68CC500BCC39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EC7B524B68CC800BCC39A /* LaunchScreen.storyboard in Resources */,
+				247EC7D924B68D0500BCC39A /* GoogleService-Info.plist in Resources */,
+				247EC7B224B68CC800BCC39A /* Assets.xcassets in Resources */,
+				247EC7B024B68CC500BCC39A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7B924B68CC800BCC39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7C424B68CC800BCC39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A88EBDCAE6E9B56A5DA225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		158BDE121DF39365E8BA7A4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C3FA7A769A2B35926B27BD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-milongainventory-milongainventoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93325B56DE84E53198F88D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-milongainventoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE747302B1CB3AC363F29DFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-milongainventory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247EC7A124B68CC500BCC39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EC7AD24B68CC500BCC39A /* ViewController.swift in Sources */,
+				247EC7A924B68CC500BCC39A /* AppDelegate.swift in Sources */,
+				247EC7AB24B68CC500BCC39A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7B724B68CC800BCC39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EC7C024B68CC800BCC39A /* milongainventoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247EC7C224B68CC800BCC39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EC7CB24B68CC800BCC39A /* milongainventoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247EC7BD24B68CC800BCC39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247EC7A424B68CC500BCC39A /* milongainventory */;
+			targetProxy = 247EC7BC24B68CC800BCC39A /* PBXContainerItemProxy */;
+		};
+		247EC7C824B68CC800BCC39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247EC7A424B68CC500BCC39A /* milongainventory */;
+			targetProxy = 247EC7C724B68CC800BCC39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		247EC7AE24B68CC500BCC39A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247EC7AF24B68CC500BCC39A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247EC7B324B68CC800BCC39A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247EC7B424B68CC800BCC39A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247EC7CD24B68CC800BCC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		247EC7CE24B68CC800BCC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247EC7D024B68CC800BCC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCUL67GAAX;
+				INFOPLIST_FILE = milongainventory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247EC7D124B68CC800BCC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCUL67GAAX;
+				INFOPLIST_FILE = milongainventory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		247EC7D324B68CC800BCC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = milongainventoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milongainventory.app/milongainventory";
+			};
+			name = Debug;
+		};
+		247EC7D424B68CC800BCC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = milongainventoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/milongainventory.app/milongainventory";
+			};
+			name = Release;
+		};
+		247EC7D624B68CC800BCC39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = milongainventoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = milongainventory;
+			};
+			name = Debug;
+		};
+		247EC7D724B68CC800BCC39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = milongainventoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-josealvarezavina.milongainventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = milongainventory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247EC7A024B68CC400BCC39A /* Build configuration list for PBXProject "milongainventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247EC7CD24B68CC800BCC39A /* Debug */,
+				247EC7CE24B68CC800BCC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247EC7CF24B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247EC7D024B68CC800BCC39A /* Debug */,
+				247EC7D124B68CC800BCC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247EC7D224B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247EC7D324B68CC800BCC39A /* Debug */,
+				247EC7D424B68CC800BCC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247EC7D524B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247EC7D624B68CC800BCC39A /* Debug */,
+				247EC7D724B68CC800BCC39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247EC79D24B68CC400BCC39A /* Project object */;
+}

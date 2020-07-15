@@ -1,0 +1,6 @@
+framework module Pods_milongainventory_milongainventoryUITests {
+  umbrella header "Pods-milongainventory-milongainventoryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
