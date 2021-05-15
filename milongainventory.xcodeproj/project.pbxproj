@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242D691A24D38EC0003F3232 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 242D691924D38EC0003F3232 /* GoogleService-Info.plist */; };
+		242D691C24E0FA4F003F3232 /* InvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D691B24E0FA4F003F3232 /* InvenViewController.swift */; };
+		242D691E25244F71003F3232 /* InvenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D691D25244F71003F3232 /* InvenViewCell.swift */; };
 		247EC7A924B68CC500BCC39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7A824B68CC500BCC39A /* AppDelegate.swift */; };
 		247EC7AB24B68CC500BCC39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */; };
 		247EC7AD24B68CC500BCC39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7AC24B68CC500BCC39A /* ViewController.swift */; };
@@ -15,10 +18,9 @@
 		247EC7B524B68CC800BCC39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7B324B68CC800BCC39A /* LaunchScreen.storyboard */; };
 		247EC7C024B68CC800BCC39A /* milongainventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7BF24B68CC800BCC39A /* milongainventoryTests.swift */; };
 		247EC7CB24B68CC800BCC39A /* milongainventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247EC7CA24B68CC800BCC39A /* milongainventoryUITests.swift */; };
-		247EC7D924B68D0500BCC39A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */; };
-		3980331A7A7A118F3BA2F520 /* Pods_milongainventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */; };
-		87BED565E44FA8CF36D6388B /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */; };
-		CE55BA72278D442E6BBA43C0 /* Pods_milongainventoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */; };
+		947B2A0B83318FF4C282ACC1 /* Pods_milongainventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A3B3CCEBC2BBDF3C3339A /* Pods_milongainventory.framework */; };
+		C05CD656EC147EA0B81C5B8B /* Pods_milongainventoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDA5973EE4CE84104BE41FB /* Pods_milongainventoryTests.framework */; };
+		C19863131AB2E76599236FEB /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3992C3516165709DAAECE2D1 /* Pods_milongainventory_milongainventoryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.debug.xcconfig"; sourceTree = "<group>"; };
+		1CF3E281E3CCB101EF3CDB31 /* Pods-milongainventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		242D691924D38EC0003F3232 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		242D691B24E0FA4F003F3232 /* InvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenViewController.swift; sourceTree = "<group>"; };
+		242D691D25244F71003F3232 /* InvenViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenViewCell.swift; sourceTree = "<group>"; };
 		247EC7A524B68CC500BCC39A /* milongainventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = milongainventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247EC7A824B68CC500BCC39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,15 +59,14 @@
 		247EC7C624B68CC800BCC39A /* milongainventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = milongainventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		247EC7CA24B68CC800BCC39A /* milongainventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = milongainventoryUITests.swift; sourceTree = "<group>"; };
 		247EC7CC24B68CC800BCC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory_milongainventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.release.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.release.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.release.xcconfig"; sourceTree = "<group>"; };
-		BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.release.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.release.xcconfig"; sourceTree = "<group>"; };
-		D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		369BA598172F2D4D6288975B /* Pods-milongainventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.debug.xcconfig"; sourceTree = "<group>"; };
+		3992C3516165709DAAECE2D1 /* Pods_milongainventory_milongainventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory_milongainventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDA5973EE4CE84104BE41FB /* Pods_milongainventoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0900F5E8EB6FBB61B84412C /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.release.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBF6033346B4066087CE3840 /* Pods-milongainventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory.release.xcconfig"; path = "Target Support Files/Pods-milongainventory/Pods-milongainventory.release.xcconfig"; sourceTree = "<group>"; };
+		C123C8D1D41550C0BB08F28E /* Pods-milongainventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventoryTests.release.xcconfig"; path = "Target Support Files/Pods-milongainventoryTests/Pods-milongainventoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6359B8FA9DC8FF7CEE0D50C /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5A3B3CCEBC2BBDF3C3339A /* Pods_milongainventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milongainventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3980331A7A7A118F3BA2F520 /* Pods_milongainventory.framework in Frameworks */,
+				947B2A0B83318FF4C282ACC1 /* Pods_milongainventory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE55BA72278D442E6BBA43C0 /* Pods_milongainventoryTests.framework in Frameworks */,
+				C05CD656EC147EA0B81C5B8B /* Pods_milongainventoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BED565E44FA8CF36D6388B /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */,
+				C19863131AB2E76599236FEB /* Pods_milongainventory_milongainventoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +105,7 @@
 				247EC7C924B68CC800BCC39A /* milongainventoryUITests */,
 				247EC7A624B68CC500BCC39A /* Products */,
 				F5E8AEBC737B93BD224C19B5 /* Pods */,
-				DAA2A16BB4631D7AF1D3084D /* Frameworks */,
+				C5DED9C00787B50798259EEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,12 +124,14 @@
 			children = (
 				247EC7A824B68CC500BCC39A /* AppDelegate.swift */,
 				247EC7AA24B68CC500BCC39A /* SceneDelegate.swift */,
+				242D691B24E0FA4F003F3232 /* InvenViewController.swift */,
 				247EC7AC24B68CC500BCC39A /* ViewController.swift */,
 				247EC7AE24B68CC500BCC39A /* Main.storyboard */,
+				242D691D25244F71003F3232 /* InvenViewCell.swift */,
 				247EC7B124B68CC800BCC39A /* Assets.xcassets */,
 				247EC7B324B68CC800BCC39A /* LaunchScreen.storyboard */,
 				247EC7B624B68CC800BCC39A /* Info.plist */,
-				247EC7D824B68D0500BCC39A /* GoogleService-Info.plist */,
+				242D691924D38EC0003F3232 /* GoogleService-Info.plist */,
 			);
 			path = milongainventory;
 			sourceTree = "<group>";
@@ -148,12 +154,12 @@
 			path = milongainventoryUITests;
 			sourceTree = "<group>";
 		};
-		DAA2A16BB4631D7AF1D3084D /* Frameworks */ = {
+		C5DED9C00787B50798259EEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2E4B6CC2911FEE5BBE07537 /* Pods_milongainventory.framework */,
-				96B9374E9B71234DD34E67FC /* Pods_milongainventory_milongainventoryUITests.framework */,
-				D07A8CAF59A4C61E8CF016E7 /* Pods_milongainventoryTests.framework */,
+				FD5A3B3CCEBC2BBDF3C3339A /* Pods_milongainventory.framework */,
+				3992C3516165709DAAECE2D1 /* Pods_milongainventory_milongainventoryUITests.framework */,
+				7BDA5973EE4CE84104BE41FB /* Pods_milongainventoryTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,12 +167,12 @@
 		F5E8AEBC737B93BD224C19B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */,
-				BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */,
-				E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */,
-				AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */,
-				A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */,
-				AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */,
+				369BA598172F2D4D6288975B /* Pods-milongainventory.debug.xcconfig */,
+				BBF6033346B4066087CE3840 /* Pods-milongainventory.release.xcconfig */,
+				E6359B8FA9DC8FF7CEE0D50C /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */,
+				B0900F5E8EB6FBB61B84412C /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */,
+				1CF3E281E3CCB101EF3CDB31 /* Pods-milongainventoryTests.debug.xcconfig */,
+				C123C8D1D41550C0BB08F28E /* Pods-milongainventoryTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -178,11 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 247EC7CF24B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventory" */;
 			buildPhases = (
-				FE747302B1CB3AC363F29DFB /* [CP] Check Pods Manifest.lock */,
+				C730A08537FD44B9BFA4BF71 /* [CP] Check Pods Manifest.lock */,
 				247EC7A124B68CC500BCC39A /* Sources */,
 				247EC7A224B68CC500BCC39A /* Frameworks */,
 				247EC7A324B68CC500BCC39A /* Resources */,
-				11A88EBDCAE6E9B56A5DA225 /* [CP] Embed Pods Frameworks */,
+				6D48FAB55FAA5406EB7865CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 247EC7D224B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryTests" */;
 			buildPhases = (
-				93325B56DE84E53198F88D11 /* [CP] Check Pods Manifest.lock */,
+				A6C81077558853B0F6A80944 /* [CP] Check Pods Manifest.lock */,
 				247EC7B724B68CC800BCC39A /* Sources */,
 				247EC7B824B68CC800BCC39A /* Frameworks */,
 				247EC7B924B68CC800BCC39A /* Resources */,
@@ -216,11 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 247EC7D524B68CC800BCC39A /* Build configuration list for PBXNativeTarget "milongainventoryUITests" */;
 			buildPhases = (
-				1C3FA7A769A2B35926B27BD6 /* [CP] Check Pods Manifest.lock */,
+				07D0DC9425BFA0D680238D65 /* [CP] Check Pods Manifest.lock */,
 				247EC7C224B68CC800BCC39A /* Sources */,
 				247EC7C324B68CC800BCC39A /* Frameworks */,
 				247EC7C424B68CC800BCC39A /* Resources */,
-				158BDE121DF39365E8BA7A4D /* [CP] Embed Pods Frameworks */,
+				0442553DEB817CD14D703E06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247EC7B524B68CC800BCC39A /* LaunchScreen.storyboard in Resources */,
-				247EC7D924B68D0500BCC39A /* GoogleService-Info.plist in Resources */,
+				242D691A24D38EC0003F3232 /* GoogleService-Info.plist in Resources */,
 				247EC7B224B68CC800BCC39A /* Assets.xcassets in Resources */,
 				247EC7B024B68CC500BCC39A /* Main.storyboard in Resources */,
 			);
@@ -304,24 +310,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11A88EBDCAE6E9B56A5DA225 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		158BDE121DF39365E8BA7A4D /* [CP] Embed Pods Frameworks */ = {
+		0442553DEB817CD14D703E06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +327,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-milongainventory-milongainventoryUITests/Pods-milongainventory-milongainventoryUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1C3FA7A769A2B35926B27BD6 /* [CP] Check Pods Manifest.lock */ = {
+		07D0DC9425BFA0D680238D65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +349,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		93325B56DE84E53198F88D11 /* [CP] Check Pods Manifest.lock */ = {
+		6D48FAB55FAA5406EB7865CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-milongainventory/Pods-milongainventory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C81077558853B0F6A80944 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,7 +388,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE747302B1CB3AC363F29DFB /* [CP] Check Pods Manifest.lock */ = {
+		C730A08537FD44B9BFA4BF71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,6 +420,8 @@
 				247EC7AD24B68CC500BCC39A /* ViewController.swift in Sources */,
 				247EC7A924B68CC500BCC39A /* AppDelegate.swift in Sources */,
 				247EC7AB24B68CC500BCC39A /* SceneDelegate.swift in Sources */,
+				242D691E25244F71003F3232 /* InvenViewCell.swift in Sources */,
+				242D691C24E0FA4F003F3232 /* InvenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +592,7 @@
 		};
 		247EC7D024B68CC800BCC39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03981FAE9CB005DE2A610A56 /* Pods-milongainventory.debug.xcconfig */;
+			baseConfigurationReference = 369BA598172F2D4D6288975B /* Pods-milongainventory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,7 +612,7 @@
 		};
 		247EC7D124B68CC800BCC39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2D67E881385D3231320427 /* Pods-milongainventory.release.xcconfig */;
+			baseConfigurationReference = BBF6033346B4066087CE3840 /* Pods-milongainventory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,7 +632,7 @@
 		};
 		247EC7D324B68CC800BCC39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4654573AA3AD2C115DCCF5D /* Pods-milongainventoryTests.debug.xcconfig */;
+			baseConfigurationReference = 1CF3E281E3CCB101EF3CDB31 /* Pods-milongainventoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,7 +654,7 @@
 		};
 		247EC7D424B68CC800BCC39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD2CFD2D8A07CF4CA5E8F333 /* Pods-milongainventoryTests.release.xcconfig */;
+			baseConfigurationReference = C123C8D1D41550C0BB08F28E /* Pods-milongainventoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -668,7 +676,7 @@
 		};
 		247EC7D624B68CC800BCC39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2F13A3080FC5599E4B9FA14 /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */;
+			baseConfigurationReference = E6359B8FA9DC8FF7CEE0D50C /* Pods-milongainventory-milongainventoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -688,7 +696,7 @@
 		};
 		247EC7D724B68CC800BCC39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC5359B0E1E78D5E2BB30B9F /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */;
+			baseConfigurationReference = B0900F5E8EB6FBB61B84412C /* Pods-milongainventory-milongainventoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
