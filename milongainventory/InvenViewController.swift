@@ -60,12 +60,10 @@ class InvenViewController: UIViewController, UITableViewDelegate, UITableViewDat
             } else {
                 for document in snapshot!.documents {
                     let data = document.data()
-                    print(document.documentID, data["quantity"], data["size"])
                     let newEntry = Product(
                         productName: document.documentID ,
                         productQuantity: data["quantity"] as! Int,
                         productSize: data["size"] as! String)
-                    print(newEntry)
                     self.Products.append(newEntry)
                 }
             }
